@@ -14,8 +14,7 @@ WebDriver driver=new FirefoxDriver();
 driver.get("http://www.javatpoint.com/");
 Thread.sleep(6000);
 ((JavascriptExecutor)driver).executeScript("scroll(0,500)");
-Thread.sleep(2000);
-((JavascriptExecutor)driver).executeScript("scroll(0,-200)");
+
 
 
 
